@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.name{
+    margin-top: -80px;
+    margin-left: 30px;
+}
+.circle {
+    width: 100px; 
+    height: 100px; 
+    background-color: yellow;
+    border-radius: 50%;
+}
+.rectangle{
+    width: 100px; 
+    height: 10px; 
+    background-color: yellow;
+}
+.profile{
+    margin-top: -20px;
+}
+.circle-img {
+    width: 100px; /* You can adjust the size as needed */
+    height: 100px; /* You can adjust the size as needed */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Hides the overflow outside the circle */
+    margin: 0 auto; /* Centers the circle horizontally */
+}
+.yellow {
+    width: 100%;
+    background-color: rgb(124, 124, 8);
+    height: 3px;
+}
+.black{
+    width: 100%;
+    background-color: black;
+    height: 3px;
+}
+.interest {
+    width: 50px;
+    height: 70px; 
+    border-radius: 100%; 
+    background-color:  yellow; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
